@@ -1,0 +1,11 @@
+Register on Git Lab
+Sign Up
+goto Profile->Settings-> Generate SSh Keys ->  generate it
+then go to git bash app of your System
+type the command on GIT bash ->  ssh-keygen -t rsa -C "youremailID@example.com" -b 4096
+then choose the default settings to install key in ur system
+type the command on GIT bash-> cat ~/.ssh/id_rsa.pub | clip
+do ctrl+v in the SSH key section to add the key.
+
+
+JUNIT MOCKITO need to be known
